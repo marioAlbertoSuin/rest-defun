@@ -3,7 +3,6 @@ pandas
 gunicorn
 click==7.1.2
 cycler==0.10.0
-Flask==1.1.2
 itsdangerous==1.1.0
 Jinja2==2.11.2
 joblib==0.16.0
