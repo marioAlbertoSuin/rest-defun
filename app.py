@@ -133,19 +133,19 @@ def home():
     df_ind_d = pasar_json(df_ind_d)
     df_muj_d = pasar_json(df_muj_d)
     df_total_d = pasar_json(df_total_d)
-    dia={"datos-mujer":df_muj_d,"datos-masculino":df_ma_d,"datos-indeterminado":df_ind_d,"total":df_total_d}
+    dia={"datosMujer":df_muj_d,"datosMasculino":df_ma_d,"datosIndeterminado":df_ind_d,"total":df_total_d}
     ##mes####
     df_ma_m = pasar_json(df_ma_m)
     df_ind_m = pasar_json(df_ind_m)
     df_muj_m = pasar_json(df_muj_m)
     df_total_m = pasar_json(df_total_m)
-    mes={"datos-mujer":df_muj_m,"datos-masculino":df_ma_m,"datos-indeterminado":df_ind_m,"total":df_total_m}
+    mes={"datosMujer":df_muj_m,"datosMasculino":df_ma_m,"datosIndeterminado":df_ind_m,"total":df_total_m}
     ###anio####
     df_ma_y = pasar_json(df_ma_y)
     df_ind_y = pasar_json(df_ind_y)
     df_muj_y = pasar_json(df_muj_y)
     df_total_y = pasar_json(df_total_y)
-    ano={"datos-mujer":df_muj_y,"datos-masculino":df_ma_y,"datos-indeterminado":df_ind_y,"total":df_total_y}
+    ano={"datosMujer":df_muj_y,"datosMasculino":df_ma_y,"datosIndeterminado":df_ind_y,"total":df_total_y}
     if(fecha=="anio"):return ano
     if(fecha=="mes"):return mes
     if(fecha=="dia"):return dia
