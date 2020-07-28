@@ -1,5 +1,4 @@
 flask
-pandas
 gunicorn
 click==7.1.2
 cycler==0.10.0
